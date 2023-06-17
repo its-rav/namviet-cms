@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "company": {
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "displayName": "PhoneNumber",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.phone-number"
+    },
+    "website": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    }
+  }
+}

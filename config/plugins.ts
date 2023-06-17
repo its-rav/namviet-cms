@@ -22,7 +22,16 @@ export default {
       },
     },
   },
-
+  migrations: {
+    enabled: true,
+    config: {
+      autoStart: true,
+      migrationFolderPath : 'migrations'
+    },
+  },
+  slugify: {
+    enabled: true,
+  },
   seo: {
     enabled: true,
   },

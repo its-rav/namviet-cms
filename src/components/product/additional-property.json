@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_product_additional_properties",
+  "info": {
+    "displayName": "Property",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

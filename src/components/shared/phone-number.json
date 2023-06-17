@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_phone_numbers",
+  "info": {
+    "displayName": "PhoneNumber",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "phoneOwner": {
+      "type": "string"
+    }
+  }
+}

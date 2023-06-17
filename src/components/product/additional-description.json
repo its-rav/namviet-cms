@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_additional_descriptions",
+  "info": {
+    "displayName": "additionalDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

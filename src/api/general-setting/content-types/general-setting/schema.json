@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_settings",
+  "info": {
+    "singularName": "general-setting",
+    "pluralName": "general-settings",
+    "displayName": "General setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.contact"
+    },
+    "statisticItems": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.statistic"
+    },
+    "partners": {
+      "displayName": "Partners",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.partners"
+    }
+  }
+}

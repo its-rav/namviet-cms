@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_partners",
+  "info": {
+    "displayName": "Partner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

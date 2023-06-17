@@ -2,7 +2,7 @@
   "name": "namviet-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Nam Viet CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@ckeditor/ckeditor5-markdown-gfm": "^38.0.1",
     "@strapi/plugin-color-picker": "^4.10.7",
     "@strapi/plugin-documentation": "^4.10.7",
@@ -22,11 +23,14 @@
     "strapi-plugin-config-sync": "^1.1.2",
     "strapi-plugin-entity-relationship-chart": "^4.1.0",
     "strapi-plugin-import-export-entries": "^1.20.0",
+    "strapi-plugin-migrations": "^1.0.4",
+    "strapi-plugin-navigation": "^2.2.11",
     "strapi-plugin-rest-cache": "^4.2.7",
-    "strapi-plugin-sitemap": "^2.0.10"
+    "strapi-plugin-sitemap": "^2.0.10",
+    "strapi-plugin-slugify": "^2.3.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "nhanvt"
   },
   "strapi": {
     "uuid": "34dae9a0-6210-4f45-80a0-a19db4bd4910"
