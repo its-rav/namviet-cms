@@ -1,7 +1,7 @@
 {
   "collectionName": "components_shared_partners",
   "info": {
-    "displayName": "Partner",
+    "displayName": "Homepage/Partner",
     "description": ""
   },
   "options": {},
@@ -10,12 +10,12 @@
       "type": "string"
     },
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "website": {
       "type": "string"

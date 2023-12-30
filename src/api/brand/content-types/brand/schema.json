@@ -36,12 +36,6 @@
         "preset": "custom"
       },
       "customField": "plugin::ckeditor5.CKEditor"
-    },
-    "products": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product.product",
-      "mappedBy": "brand"
     }
   }
 }

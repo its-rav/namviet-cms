@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_statistics",
   "info": {
-    "displayName": "Statistic"
+    "displayName": "Homepage/Statistic",
+    "description": ""
   },
   "options": {},
   "attributes": {

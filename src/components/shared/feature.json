@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_features",
   "info": {
-    "displayName": "Feature"
+    "displayName": "Homagepage/Feature",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -90,6 +90,15 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "childCategories"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

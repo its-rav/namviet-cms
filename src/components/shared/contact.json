@@ -20,7 +20,9 @@
       "displayName": "PhoneNumber",
       "type": "component",
       "repeatable": true,
-      "component": "shared.phone-number"
+      "component": "shared.phone-number",
+      "max": 2,
+      "min": 1
     },
     "website": {
       "type": "string"

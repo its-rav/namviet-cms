@@ -43,14 +43,15 @@
       },
       "type": "string"
     },
-    "productId": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "uid",
-      "required": false
+      "required": true,
+      "targetField": "name"
     },
     "additionalDescription": {
       "displayName": "additionalDescription",
@@ -102,15 +103,22 @@
     },
     "brand": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::brand.brand",
-      "inversedBy": "products"
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
     },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "products"
+    },
+    "code": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid"
     }
   }
 }

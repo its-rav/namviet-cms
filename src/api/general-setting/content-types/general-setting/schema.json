@@ -4,7 +4,7 @@
   "info": {
     "singularName": "general-setting",
     "pluralName": "general-settings",
-    "displayName": "General setting",
+    "displayName": "General settings",
     "description": ""
   },
   "options": {
@@ -26,26 +26,35 @@
       },
       "component": "shared.contact"
     },
-    "statisticItems": {
-      "type": "component",
-      "repeatable": true,
+    "stamp": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "shared.statistic"
+      }
     },
-    "partners": {
-      "displayName": "Partners",
-      "type": "component",
-      "repeatable": true,
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "shared.partners"
+      }
     }
   }
 }
