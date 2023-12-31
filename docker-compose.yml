@@ -2,9 +2,9 @@ version: "3"
 services:
   strapi:
     container_name: strapi
-    build: 
+    build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     image: strapi:latest
     restart: unless-stopped
     env_file: .env
@@ -46,7 +46,7 @@ services:
       MYSQL_DATABASE: ${DATABASE_NAME}
     volumes:
       - strapi-data:/var/lib/mysql
-      #- ./data:/var/lib/mysql # if you want to use a bind folder
+      - ./data:/var/lib/mysql # if you want to use a bind folder
     ports:
       - "3306:3306"
     networks:
