@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_introductionpage_hero_sections",
+  "info": {
+    "displayName": "Introductionpage/HeroSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

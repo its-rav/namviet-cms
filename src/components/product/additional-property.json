@@ -10,9 +10,12 @@
       "type": "string",
       "required": true
     },
-    "value": {
-      "type": "string",
-      "required": true
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

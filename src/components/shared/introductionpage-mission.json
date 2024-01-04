@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_introductionpage_missions",
+  "info": {
+    "displayName": "Introductionpage/Mission"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

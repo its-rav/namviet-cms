@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "introduction_pages",
+  "info": {
+    "singularName": "introduction-page",
+    "pluralName": "introduction-pages",
+    "displayName": "Introduction page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "missions": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.introductionpage-mission",
+      "max": 3,
+      "min": 3,
+      "required": true
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.introductionpage-hero-section",
+      "required": true
+    }
+  }
+}
